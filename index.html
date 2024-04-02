@@ -1,9 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html  lang="en">
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <title>Web Graphics: Live video edge detection</title>
     </head>
     <body>
-        
+        <video id="input-video" width="640" height="360" controls loop style="border: 1px solid black; display: inline-block;">
+            <source src="Wildlife.mp4" type="video/mp4">
+        </video>
+
+        <canvas id="edge-detected-canvas" width="640" height="360" style="border: 1px solid black; display: inline-block;">
+            
+        </canvas>
+        <script type="text/javascript" src="script.js"></script>
     </body>
+    
 </html>
